@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Jabar Teguh Pribadi</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<link href="https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap" rel="stylesheet">
+
+<link
+    href="https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Allan:wght@400;700&display=swap" rel="stylesheet">
+
+<body>
+    <main>
+        <!--START HEADER-->
+        <header class="header">
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="img/logo.png" alt="logo">
+                </div>
+                <a href="#home">Beranda</a>
+                <a href="#about">About</a>
+                <a href="#keahlian">Keahlian</a>
+                <a href="#testimoni">Testimoni</a>
+                <a href="#portofolio">Portofolio</a>
+                <a href="#kontak">Kontak</a>
+            </nav>
+            <div class="login">
+                <a href="#home">Login</a>
+                <a class="trial" href="#home">Start Free Trial</a>
+            </div>
+            <a onclick="tampilsidebar()" class="hamburgermenu"><i class='bx bx-menu'></i></a>
+            <!--START HAMBURGER MENU-->
+            <nav class="sidebar">
+                <div class="close-menu">
+                    <a onclick="hilangsidebar()"><i class='bx bx-x'></i></a>
+                </div>
+                <div class="menu-items">
+                    <a href="#home">Beranda</a>
+                    <a href="#about">About</a>
+                    <a href="#keahlian">Keahlian</a>
+                    <a href="#testimoni">Testimoni</a>
+                    <a href="#portofolio">Portofolio</a>
+                    <a href="#kontak">Kontak</a>
+                </div>
+            </nav>
+            <!--END HAMBURGER MENU-->
+        </header>
+        <!--END START HEADER-->
+        <!--START HOME-->
+        <section class="home" id="home">
+            <div class="container">
+                <div class="home-content">
+                    <h1>Membantumu <br>menjadi lebih<br> banyak cuan</h1>
+                    <p>Dapatkan bantuan profesional desain dengan pribadress menjadi lebih cuan dengan tampilan yang
+                        menarik banyak pelanggan</p>
+                    <button class="button ajukan">Ajukan Sekarang</button>
+                </div>
+                <div class="home-foto">
+                    <img src="img\foto-home.png" alt="foto-home">
+                </div>
+            </div>
+        </section>
+        <!--END HOME-->
+        <!--START SECTION BAGAIMANA-->
+        <section class="bagaimana" id="bagaimana">
+            <div class="container-bagaimana">
+                <div class="bagaimana-content">
+                    <div class="bagaimana-teks">
+                        <h1>Bagaimana kami<br> membantu<br> bisnis anda</h1>
+                        <p>
+                            Produk dan desainmu tidak dilirik pedagang? <br>yuk dapatkan bantuan professional degan
+                            company kami.
+                        </p>
+                        <div class="omset">
+                            <div class="kiri">
+                                <h1>
+                                    +90%
+                                </h1>
+                                <p>
+                                    Peningkatan omset
+                                </p>
+                            </div>
+                            <div class="kanan">
+                                <h1>
+                                    +20%
+                                </h1>
+                                <p>
+                                    Extra omset
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--END SECTION bagaimana-->
+
+        <!--START SECTION about-->
+        <section class="about" id="about">
+            <h1>About</h1>
+            <div class="container-about">
+                <div class="foto-about">
+                    <img src="img/foto-about.png" alt="foto-about">
+                    <p>Jabar Teguh Pribadi</p>
+                </div>
+                <div class="detail">
+                    <h1>I am <br>a Designer</h1>
+                    <h2>CEO of Pribadress company</h2>
+                    <h3>Seorang wirausaha yang bergerak dibidang fashion dengan pengalaman 10 tahun yang akan membantu
+                        anda dalam meningkatkan omset dengan desain profesional</h3>
+                </div>
+            </div>
+        </section>
+        <!--END SECTION about-->
+
+        <!--START SECTION keahlian-->
+        <section class="keahlian" id="keahlian">
+            <h1>Keahlian</h1>
+            <div class="container-keahlian">
+                <div class="teks-keahlian">
+                    <div class="keahlian-segmen">
+                        <p>UI/UX</p>
+                    </div>
+                    <div class="keahlian-segmen">
+                        <p>Ilustration</p>
+                    </div>
+                    <div class="keahlian-segmen">
+                        <p>Video Editing</p>
+                    </div>
+                    <div class="keahlian-segmen">
+                        <p>Photo Editing</p>
+                    </div>
+                </div>
+                <div class="barscale">
+                    <div class="uiux">.</div>
+                    <div class="ilustration"></div>
+                    <div class="videoediting"></div>
+                    <div class="photoediting"></div>
+                </div>
+            </div>
+        </section>
+        <!--END SECTION keahlian-->
+
+        <!--START SECTION kenapa saya-->
+        <section class="kenapasaya" id="kenapasaya">
+            <h1>Mengapa Harus Memperkerjakan Saya?</h1>
+            <div class="isi-kenapasaya">
+                <p>Saya adalah seorang desainer yang berceritka melalui karya-karya kreatif saya. <br>
+                    Setiap proyek saya dimulai dengan pemahaman mendalam tentang visi dan merk klien. <br>
+                    Dengan Kreatifitas, keterampilan teknis yang kuat, dan kolaborasi yang efektif, saya menciptakan
+                    desain yang tidak hanya memukau secara visual tetapi juga mengkomunikasikan pesan dengan kuat. <br>
+                    Melalui portofolio saya, Anda akan menemukan cerita-cerita yang saya tulis bersama klien-klien saya,
+                    mencerminkan dedikasi saya untuk memberikan hasil yang terbaik yang memenuhi harapan mereka</p>
+            </div>
+        </section>
+        <!--END SECTION kenapa saya-->
+
+        <!--START SECTION testimoni-->
+        <section class="testimoni" id="testimoni">
+            <h1>Testimoni</h1>
+            <div class="container-testimoni">
+                <div class="testimoni-klien">
+                    <img src="img/klien1.png" alt="klien1">
+                    <p>Desain dan materi pemasaran yang dibuat benar-benar mencerminkan visi dan nilai-nilai perusahaan
+                        kami dengan sempurna.</p>
+                    <h1>Muhammad Alex Maulana</h1>
+                </div>
+                <div class="testimoni-klien">
+                    <img src="img/klien2.png" alt="klien2">
+                    <p>Berhasil menangkap esensi merek kami dengan detail yang luar biasa, menciptakan identitas visual
+                        yang mengesankan</p>
+                    <h1>Sarah Siti Fatimah</h1>
+                </div>
+                <div class="testimoni-klien">
+                    <img src="img/klien3.png" alt="klien3">
+                    <p>Desainnya keren banget, nggak cuma bikin penasaran tapi juga bikin brand kita makin kece!</p>
+                    <h1>Judith Maisyarah</h1>
+                </div>
+            </div>
+        </section>
+        <!--END SECTION testimoni-->
+
+        <!--START SECTION portofolio-->
+        <section class="portofolio" id="portofolio">
+            <h1>Portofolio</h1>
+            <div class="container-portofolio">
+                <div class="portofolio-box">
+                    <img src="img/portofolio1.jpg" alt="klien1">
+                    <h1>Desain Fashion</h1>
+                    <button class="button-porto detail-porto">Detail Proyek</button>
+                </div>
+                <div class="portofolio-box">
+                    <img src="img/portofolio2.png" alt="klien2">
+                    <h1>Desain Kampanye</h1>
+                    <button class="button-porto detail-porto">Detail Proyek</button>
+                </div>
+                <div class="portofolio-box">
+                    <img src="img/portofolio3.jpg" alt="klien3">
+                    <h1>Photo Produk</h1>
+                    <button class="button-porto detail-porto">Detail Proyek</button>
+                </div>
+            </div>
+        </section>
+        <!--END SECTION portofolio-->
+
+        <!--START SECTION kontak-->
+        <section class="kontak" id="kontak">
+            <h1>Kontak</h1>
+            <div class="container-kontak">
+                <div class="formulir">
+                    <form action="#" name="formvalidasi" id="formvalidasi">
+                        <div class="input-box">
+                            <div class="input-field">
+                                <p>Nama : </p>
+                                <input type="text" name="nama" placeholder="Nama" required>
+                            </div>
+                        </div>
+                        <div class="input-box">
+                            <div class="input-field">
+                                <p>E-mail : </p>
+                                <input type="text" name="email" placeholder="Email" required>
+                            </div>
+                        </div>
+                        <div class="input-box">
+                            <div class="input-field">
+                                <p>No HP : </p>
+                                <input type="text" name="number" placeholder="Nomor hp" required>
+                            </div>
+                        </div>
+                        <div class="textarea-field">
+                            <p>Pesan : </p>
+                            <textarea name="message" id="" cols="30" rows="10" placeholder="Pesan"></textarea>
+                        </div>
+                        <div class="submit-btn">
+                            <button type="submit" value="submit" class="buttonform detail-form">Kirim</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="nomordanemail">
+                    <div class="ikonn">
+                        <i class='bx bxs-phone'></i>
+                        <i class='bx bxs-envelope'></i>
+                    </div>
+                    <div class="isii">
+                        <p>227 006 119</p>
+                        <p>pjabarteguh@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--END SECTION kontak-->
+
+        <footer class="footer">
+            <div class="container-footer">
+                <div class="media">
+                    <i class='bx bxl-facebook-circle'></i>
+                    <i class='bx bxl-instagram'></i>
+                    <i class='bx bxl-twitter'></i>
+                    <i class='bx bxl-google-plus-circle'></i>
+                    <i class='bx bxl-youtube'></i>
+                </div>
+                <div class="sitemap">
+                    <h1>Sitemap</h1>
+                    <p>Beranda</p>
+                    <p>About</p>
+                    <p>Keahlian</p>
+                    <p>Testimoni</p>
+                    <p>Portofolio</p>
+                    <p>Kontak</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <h1>copyright all right reserved</h1>
+            </div>
+        </footer>
+
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,1286 @@
+* {
+    background-color: #272727;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0;
+}
+
+/* SECTION HEADER */
+.header {
+    background-color: #363231;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    top: 0;
+    width: 100%;
+    justify-content: space-between;
+    padding: 7px 0 7px 0;
+}
+
+.logo,
+.logo img,
+.navbar,
+.navbar a,
+.login,
+.login a,
+.login h1,
+.hamburgermenu,
+.hamburgermenu i {
+    background-color: #363231;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 45px;
+    max-width: 45px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 60px;
+}
+
+.navbar a {
+    margin-left: 40px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.navbar a:hover {
+    color: #01EEFF;
+}
+
+.login {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-right: 60px;
+}
+
+.login a {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.login a.trial {
+    background-color: black;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 18px;
+    padding: 5px 35px 5px 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+}
+
+.sidebar {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 450px;
+    width: 250px;
+    z-index: 999;
+    background-color: #272727;
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.close-menu {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 10px;
+    font-size: 32px;
+    width: 100%;
+    background-color: #272727;
+}
+
+.close-menu i {
+    background-color: #272727;
+}
+
+.menu-items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #272727;
+}
+
+.sidebar a {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    background-color: #272727;
+    color: white;
+    padding: 10px;
+    width: 100%;
+}
+
+.sidebar a:hover {
+    color: #848484;
+}
+
+.close-ham {
+    align-items: flex-start;
+    width: 100%;
+}
+
+.close-ham a:hover {
+    color: #01EEFF;
+}
+
+.hamburgermenu {
+    font-size: 48px;
+    display: none;
+}
+
+/* SECTION HEADER */
+
+/* SECTION HOME */
+.home {
+    padding: 0;
+    height: auto;
+    margin: 80px 60px 40px 60px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.home-content h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.home-content p {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    font-size: 20px;
+    max-width: 700px;
+    height: auto;
+}
+
+.button {
+    margin-top: 20px;
+    width: 150px;
+    height: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    background-color: #546cee;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ajukan {
+    background-color: #546cee;
+    border: 2px solid #008CBA;
+    border-color: #546cee;
+}
+
+.ajukan:hover {
+    background-color: #005f7f;
+}
+
+.home-foto {
+    margin-left: 80px;
+}
+
+.home-foto img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    max-height: 400px;
+}
+
+/* SECTION HOME */
+
+/* SECTION bagaimana */
+.bagaimana {
+    padding: 0;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+}
+
+.container-bagaimana {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin: 80px;
+}
+
+.bagaimana-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+}
+
+.bagaimana-teks {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: white;
+}
+
+.bagaimana-content h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    color: black;
+    background-color: white;
+}
+
+.bagaimana-content p {
+    height: auto;
+    max-width: 500px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+    background-color: white;
+}
+
+.omset {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background-color: white;
+}
+
+.omset h1 {
+    font-family: 'Allan';
+    font-weight: 800;
+    font-size: 54px;
+}
+
+.omset p {
+    font-family: 'Allan';
+    font-weight: 800;
+    font-size: 20px;
+}
+
+/* SECTION bagaimana */
+
+/* SECTION about */
+.about {
+    padding: 0;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px 20px 60px 20px;
+    flex-direction: column;
+}
+
+.about h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    color: white;
+}
+
+.container-about {
+    display: flex;
+    flex-direction: row;
+}
+
+.foto-about {
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.foto-about p {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.foto-about img {
+    width: 100%;
+    height: auto;
+    max-width: 350px;
+    max-height: 750px;
+}
+
+.detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.detail h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.detail h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    font-size: 24px;
+}
+
+.detail h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    font-size: 20px;
+    max-width: 600px;
+}
+
+/* SECTION about */
+
+/* SECTION keahlian */
+.keahlian {
+    padding: 40px 20px 80px 20px;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: white;
+    gap: 40px;
+}
+
+.keahlian h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    color: black;
+    background-color: white;
+}
+
+.container-keahlian {
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+    align-items: center;
+    gap: 40px;
+}
+
+.teks-keahlian {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 40px;
+    background-color: white;
+}
+
+.keahlian-segmen {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+
+.barscale {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 55px;
+    background-color: white;
+}
+
+.keahlian-segmen p {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: black;
+    background-color: white;
+}
+
+.uiux {
+    width: 650px;
+    height: 10px;
+}
+
+.ilustration {
+    width: 600px;
+    height: 10px;
+}
+
+.videoediting {
+    width: 700px;
+    height: 10px;
+}
+
+.photoediting {
+    width: 550px;
+    height: 10px;
+}
+
+/* SECTION keahlian */
+
+/* SECTION kenapa saya */
+.kenapasaya {
+    padding: 0;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    margin: 50px 20px 100px 20px;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.kenapasaya h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    color: white;
+}
+
+.isi-kenapasaya p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    margin-left: 15px;
+}
+
+/* SECTION kenapa saya */
+
+/* SECTION testimoni */
+.testimoni {
+    padding: 40px 20px 80px 20px;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: white;
+    gap: 40px;
+}
+
+.testimoni h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    color: black;
+    background-color: white;
+}
+
+.container-testimoni {
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.testimoni-klien {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    gap: 20px;
+}
+
+.testimoni-klien img {
+    max-width: 150px;
+    background-color: white;
+    border-radius: 100px;
+}
+
+.testimoni-klien h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+    background-color: white;
+}
+
+.testimoni-klien p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    max-width: 300px;
+}
+
+/* SECTION testimoni */
+
+/* SECTION portofolio */
+.portofolio {
+    padding: 40px 20px 80px 20px;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.portofolio h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    color: white;
+}
+
+.container-portofolio {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+
+.portofolio-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.portofolio-box img {
+    max-width: 150px;
+}
+
+.portofolio-box h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+
+.button-porto {
+    width: 150px;
+    height: 30px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: white;
+    background-color: #546cee;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.detail-porto {
+    background-color: #546cee;
+    border: 2px solid #008CBA;
+    border-color: #546cee;
+}
+
+.detail-porto:hover {
+    background-color: #005f7f;
+}
+
+/* SECTION portofolio */
+
+/* SECTION kontak */
+.kontak {
+    padding: 40px 20px 80px 20px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    gap: 40px;
+}
+
+.kontak h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    color: black;
+    background-color: white;
+}
+
+.container-kontak {
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 80px 0 80px;
+}
+
+#formvalidasi {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background-color: white;
+    gap: 20px;
+}
+
+.input-box {
+    background-color: white;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    align-items: center;
+}
+
+.textarea-field {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    align-items: center;
+}
+
+.input-field input[type="text"] {
+    background-color: black;
+    height: 30px;
+    width: 400px;
+    border-radius: 2px;
+    font-family: 'Inter', 'Sans-serif';
+    color: white;
+    margin-right: 10px;
+    display: flex;
+}
+
+.textarea-field textarea {
+    background-color: black;
+    width: 400px;
+    height: 30px;
+    border-radius: 2px;
+    font-family: 'Inter', 'Sans-serif';
+    color: white;
+    margin-right: 10px;
+}
+
+.input-field p {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    min-width: 60px;
+}
+
+.textarea-field p {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    min-width: 60px;
+}
+
+.submit-btn {
+    background-color: white;
+    margin-left: 150px;
+}
+
+.buttonform {
+    width: 150px;
+    height: 30px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: white;
+    background-color: #546cee;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.detail-form {
+    background-color: #546cee;
+    border: 2px solid #008CBA;
+    border-color: #546cee;
+}
+
+.detail-form:hover {
+    background-color: #005f7f;
+}
+
+.nomordanemail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: black;
+    border-radius: 5px;
+    padding: 20px 40px 20px 40px;
+    gap: 20px;
+}
+
+.ikonn {
+    display: flex;
+    flex-direction: column;
+    font-size: 56px;
+    background-color: black;
+}
+
+.ikonn i,
+.isii p {
+    background-color: black;
+}
+
+.isii {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    gap: 20px;
+}
+
+label.error {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    color: red;
+    background-color: white;
+}
+
+/* SECTION kontak */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.container-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.media {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 40px;
+    padding: 10px 20px;
+    background-color: black;
+    border-radius: 25px;
+    gap: 15px;
+}
+
+.media i {
+    background-color: white;
+    color: black;
+    border-radius: 100px;
+    padding: 4px;
+}
+
+.sitemap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sitemap h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 10px;
+}
+
+.sitemap p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 2px;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5));
+}
+
+.copyright h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .login {
+        gap: 7px;
+    }
+    .login a {
+        font-size: 12px;
+    }
+    .navbar a {
+        margin-left: 30px;
+        font-weight: 400;
+        font-size: 12px;
+    }
+    .login a.trial {
+        font-size: 12px;
+        padding: 5px 20px 5px 20px;
+    }
+
+    .container-keahlian {
+        margin-left: 60px;
+        gap: 40px;
+    }
+
+    .nomordanemail {
+        border-radius: 4px;
+        padding: 5px 10px 5px 10px;
+        gap: 10px;
+    }
+
+    .ikonn {
+        font-size: 32px;
+    }
+
+    .isii {
+        font-size: 14px;
+        gap: 10px;
+    }
+
+    .container-portofolio {
+        gap: 120px;
+    }
+
+    .container-keahlian{
+        gap: 28px;
+        margin-left: 40px;
+    }
+    .teks-keahlian {
+        gap: 20px;
+    }
+    
+    .barscale {
+        gap: 40px;
+    }
+    .keahlian-segmen p {
+        font-size: 18px;
+    }
+    
+    .uiux {
+        width: 550px;
+        height: 10px;
+    }
+    
+    .ilustration {
+        width: 500px;
+        height: 10px;
+    }
+    
+    .videoediting {
+        width: 600px;
+        height: 10px;
+    }
+    
+    .photoediting {
+        width: 450px;
+        height: 10px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    /*header*/
+    .navbar {
+        display: none;
+    }
+
+    .login {
+        display: none;
+    }
+
+    .hamburgermenu {
+        display: block;
+    }
+
+    /*header*/
+    /*home*/
+    .home {
+        margin: 80px 30px 20px 30px;
+    }
+
+    .home-content h1 {
+        font-family: 'Inter', sans-serif;
+        font-weight: 800;
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .home-content p {
+        font-size: 16px;
+        max-width: 450px;
+    }
+
+    .button {
+        margin-top: 10px;
+        width: 100px;
+        height: 20px;
+        font-size: 10px;
+    }
+
+    .ajukan {
+        border: 1px solid #008CBA;
+    }
+
+    .ajukan:hover {
+        background-color: #005f7f;
+    }
+
+    .home-foto {
+        margin-left: 20px;
+    }
+
+    /*home*/
+    /*keahlian*/
+    .keahlian {
+        padding: 20px 10px 40px 10px;
+        gap: 20px;
+    }
+
+    .keahlian h1 {
+        font-size: 24px;
+    }
+
+    .container-keahlian {
+        margin-left: 20px;
+        gap: 10px;
+    }
+
+    .teks-keahlian {
+        gap: 20px;
+    }
+
+    .barscale {
+        gap: 32px;
+    }
+
+    .keahlian-segmen p {
+        font-size: 16px;
+    }
+
+    .uiux {
+        width: 220px;
+        height: 10px;
+    }
+
+    .ilustration {
+        width: 190px;
+        height: 10px;
+    }
+
+    .videoediting {
+        width: 250px;
+        height: 10px;
+    }
+
+    .photoediting {
+        width: 160px;
+        height: 10px;
+    }
+
+    /*keahlian*/
+    /* SECTION bagaimana */
+    .container-bagaimana {
+        margin: 30px;
+    }
+
+    .bagaimana-teks {
+        gap: 10px;
+    }
+
+    .bagaimana-content h1 {
+        font-size: 24px;
+    }
+
+    .bagaimana-content p {
+        max-width: 500px;
+        font-size: 16px;
+    }
+
+    .omset {
+        gap: 10px;
+    }
+
+    .omset h1 {
+        font-size: 48px;
+    }
+
+    .omset p {
+        font-size: 16px;
+    }
+
+    /* SECTION bagaimana */
+    /* SECTION about */
+    .about {
+        margin: 10px 10px 30px 10px;
+    }
+
+    .about h1 {
+        font-size: 24px;
+    }
+
+    .foto-about {
+        margin-left: 10px;
+        margin-top: 10px;
+        gap: 10px;
+    }
+
+    .foto-about p {
+        font-size: 10px;
+    }
+
+    .detail {
+        gap: 6px;
+    }
+
+    .detail h1 {
+        font-size: 24px;
+    }
+
+    .detail h2 {
+        font-size: 18px;
+    }
+
+    .detail h3 {
+        font-size: 16px;
+        max-width: 380px;
+    }
+
+    /* SECTION about */
+    /* SECTION kenapa saya */
+    .kenapasaya {
+        margin: 30px 10px 50px 10px;
+        gap: 25px;
+    }
+
+    .kenapasaya h1 {
+        font-size: 24px;
+    }
+
+    .isi-kenapasaya p {
+        font-size: 14px;
+        margin-left: 5px;
+    }
+
+    /* SECTION kenapa saya */
+    /* SECTION testimoni */
+    .testimoni {
+        padding: 20px 10px 40px 10px;
+        gap: 20px;
+    }
+
+    .testimoni h1 {
+        font-size: 24px;
+    }
+
+    .container-testimoni {
+        gap: 20px;
+    }
+
+    .testimoni-klien {
+        gap: 10px;
+    }
+
+    .testimoni-klien img {
+        max-width: 80px;
+    }
+
+    .testimoni-klien h1 {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .testimoni-klien p {
+        font-size: 8px;
+        max-width: 200px;
+    }
+
+    /* SECTION testimoni */
+
+    /* SECTION portofolio */
+    .portofolio {
+        padding: 20px 10px 40px 10px;
+        gap: 20px;
+    }
+
+    .portofolio h1 {
+        font-size: 24px;
+    }
+
+    .container-portofolio {
+        gap: 40px;
+    }
+
+    .portofolio-box {
+        gap: 10px;
+    }
+
+    .portofolio-box img {
+        max-width: 80px;
+    }
+
+    .portofolio-box h1 {
+        font-size: 12px;
+    }
+
+    .button-porto {
+        width: 75px;
+        height: 15px;
+        font-size: 7px;
+    }
+
+    .detail-porto {
+        border: 1px solid #008CBA;
+    }
+
+    /* SECTION portofolio */
+    /* SECTION kontak */
+    .kontak {
+        padding: 20px 10px 40px 10px;
+        gap: 20px;
+    }
+
+    .kontak h1 {
+        font-size: 24px;
+    }
+
+    .container-kontak {
+        margin: 0 20px 0 20px;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #formvalidasi {
+        gap: 10px;
+    }
+
+    .input-field input[type="text"] {
+        height: 15px;
+        width: 200px;
+        border-radius: 1px;
+        margin-right: 5px;
+    }
+
+    .textarea-field textarea {
+        width: 200px;
+        height: 15px;
+        border-radius: 1px;
+        margin-right: 5px;
+    }
+
+    .input-field p {
+        font-size: 10px;
+        min-width: 40px;
+    }
+
+    .textarea-field p {
+        font-size: 10px;
+        min-width: 40px;
+    }
+
+    .submit-btn {
+        background-color: white;
+        margin-left: 50px;
+    }
+
+    .buttonform {
+        width: 50px;
+        height: 15px;
+        font-size: 8px;
+        border-radius: 10px;
+    }
+
+    .detail-form {
+        border: 1px solid #008CBA;
+    }
+
+    .nomordanemail {
+        border-radius: 4px;
+        padding: 5px 10px 5px 10px;
+        gap: 10px;
+    }
+
+    .ikonn {
+        font-size: 32px;
+    }
+
+    .isii {
+        font-size: 14px;
+        gap: 10px;
+    }
+
+    label.error {
+        font-family: 'Inter', sans-serif;
+        font-weight: bold;
+        font-size: 6px;
+        color: red;
+        background-color: white;
+    }
+
+    /* SECTION kontak */
+
+    .footer {
+        margin-top: 20px;
+    }
+    .container-footer {
+        gap: 10px;
+    }
+    .media {
+        font-size: 20px;
+        padding: 5px 10px;
+        border-radius: 25px;
+        gap: 7px;
+    }
+    .media i {
+        padding: 2px;
+    }
+    .sitemap h1 {
+        font-size: 12px;
+        padding: 5px;
+    }
+    .sitemap p {
+        font-size: 10px;
+        padding: 1px;
+    }
+
+    .copyright {
+        height: 40px;
+        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5));
+    }
+
+    .copyright h1 {
+        font-size: 18px;
+    }
+}
